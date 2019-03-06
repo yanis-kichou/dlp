@@ -50,7 +50,17 @@ def exp(a, n, p):
 
 #Q2
 def factor(n):
-   return
+    div=2
+    facto=list()
+    while(n!=1):
+        i=0
+        while(n%div==0):
+            n=n//div
+            i+=1
+        if(i!=0):
+            facto.append((div,i))
+        div+=1        
+    return facto
 
 
 #Q3
