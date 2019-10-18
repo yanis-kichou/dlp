@@ -65,6 +65,7 @@ def factor(n):
 
 #Q3
 def order(a, p, factors_p_minus1):
+    
     return
 
 
